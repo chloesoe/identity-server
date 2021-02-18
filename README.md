@@ -15,7 +15,7 @@ https://github.com/IdentityServer/IdentityServer4
 If you dont want to build your own image, you can pull it from docker.io:
 
 ```
-docker pull wigo4it/wigo4it/identityserver4:latest
+docker pull wigo4it/identityserver4:latest
 docker run --rm -p 5099:80 wigo4it/identityserver4:latest --environment="Development"
 ```
 
